@@ -12,71 +12,223 @@
       padding: 0 ;
   }
   body{
+      
     font-family: Shabnam;
-    direction: rtl;
+    display: flex;
+    justify-content: flex-start;
   }
 
   main{
-    flex-direction : column ;
+    font-family: Shabnam;
+    width: 100%;
+    display: flex;
+    direction: rtl;
+    flex-direction: column;
   }
+
 .header{
     width: 100% ;
-    height: 60px ;
-    background-color: blueviolet;
+    height: 10vh; 
     display: flex;
     justify-content: space-between; 
-    height: 10vh; 
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(14, 21, 112);
+    
 }
 
-.logo img{
+
+.logo  {
     width: 30px;
     height: 30px;
+    padding-right: 20px;
 }
-.navBar{
-    width: 300px;
+
+.hamMenu  {
+    width: 30px;
+    height: 30px;
+    padding-left: 20px;
 }
 
 ul{
-    display: flex;   
+    display: flex;    
 }
 
 ul li{
-    width : 60px ;
-    height: 20px;
-    background-color: burlywood;
-    text-align: center; 
+    width : 80px ;
+    height: 15px;
+    display: flex;
+    padding : 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: rgb(255, 255, 255);  
+    align-items: center; 
+    justify-content: center;
 }
 
-.navBar ul{
-    justify-content: space-between;
+
+
+.hamMenu img{
+    width: 30px;
+    height: 30px;
+    padding-left: 20px;
 }
 
+.clear{
+    clear: both;
+    display: inline-block;
+}
 .container{
     display: flex;
     flex-direction: row;
+    width: 100vw ;
     height: 90vh;
+    
 }
 
 .rightSide{
     width: 50%;
     display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.divTable{
+    padding-top: 40px;
+}
+
+table {
+    
+   width: 100%;
+   border-collapse: collapse;
+   border: 2px solid rgb(155, 155, 155);
+}
+
+
+
+
+
+table tr{
+    border: 1px solid #dddddd;
+}
+
+table tr:nth-child(odd){
+    background-color: rgb(238, 237, 237);
+}
+
+table th{
+    width: 100%;
+    height: 20%;
+    padding: 10px  40px  10px 40px;
+    background-color: rgb(182, 182, 182);
+}
+
+table td{
+    padding: 10px  40px  10px 40px;
+    /* border-collapse: collapse; */
+    
+}
+
+
+
+table td:last-child {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    font-size: 12px;
+}  
+
+button{
+    width: 12px;
+    height: 12px;
+    margin: 0px 10px 0px 10px;
+}
+.btnDelEdit{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* .btnDelEdit button{
+    padding-left: 5px;
+} */
+
+/* .inputInfo{
+    width: 50%;
+    height: 200px;
+    display: flex ;
+    flex-direction: column ; 
+
+} */
+
+.gap{
+    width: 100%;
+    height: 40px;
+}
+
+.boxInfo {
+    width: 50%;
+    height: 500px;
+    
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+input{
+    width: 60%;
+    height: 40px;
+    margin-bottom: 5px;
+}
+.btnSubmit{
+    width: 60.5%;
+    height: 70px;
+    font-size: 24px;
+    border: none;
+}
+
+.leftSide{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: gray;
+}
+
+
+.leftSide img{
+    width: 40%;
+    height: 30%;
+}
+
+.leftSide button{
+    width: 30px;
+    height: 30px;
+    border: none ;
+    border-radius: 2px;
+}
+
+.blockColors{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btnYellow{
+    background-color: yellow;
+
+}
+.btnGreen{
     background-color: green;
 }
 
-.leftSide{
-    width: 50%;
+.btnBlue{
+    background-color: blue;
+}
+.btnRed{
+    background-color: red;
 }
 
-.leftSide{
-    background-color: gray;
-}
-.leftSide img{
-    width: 150px;
-    height: 150px;
-}
-.leftSide button{
-    width: 50px;
-    height: 20px;
-
-}
 
