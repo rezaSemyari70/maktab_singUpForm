@@ -2,148 +2,161 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Sign up</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./css/style.css">
-        <link rel="stylesheet" href="./css/fontawesome.css">
-        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 7]>
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sign up</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/fontawesome.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <script src="./js/jquery-3.5.1.js"></script>
+    <script src="./js/event.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <main>
-            <div class="header">
-                    <img  class="logo" src="image/git_logo.png" alt="logo">
-                    <nav class="menuBar">
-                        <ul>
-                            <li>خانه</li>
-                            <li>فروشگاه</li>
-                            <li>قیمت ها</li>
-                            <li>درباره ما</li>
-                        </ul>
-                    </nav>
-                    <div class="hamMenu">
-                        <i class="fas fa-bars fa-1x"></i>
-                    </div>
+    <main>
+        <div class="header">
+            <img class="logo" src="image/git_logo.png" alt="logo">
+            <nav class="menuBar">
+                <ul>
+                    <li>خانه</li>
+                    <li>فروشگاه</li>
+                    <li>قیمت ها</li>
+                    <li>درباره ما</li>
+                </ul>
+            </nav>
+            <div class="hamMenu">
+                <i class="fas fa-bars fa-1x"></i>
             </div>
-            <div class="clear"></div>
-            <div class="container">
-                <div class="rightSide">
-                    <div class="divTable">
-                        <table >
-                            <tr>
-                                <th> نام کاربری </th>
-                                <th> نام </th>
-                                <th> تاریخ تولد </th>
-                                <th> ویرایش </th>
-                                <th> حذف  </th>
-                            </tr>
-                            <tr>
-                                <td>ali@72</td>
-                                <td>ali</td>
-                                <td>1372</td>
-                                <td>
-                                    <div class="btnDelEdit">
-                                        <button></button>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="btnDelEdit">
-                                        <button></button>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>hossein@67</td>
-                                <td>hossein</td>
-                                <td>1367</td>
-                                <td>
-                                    <div class="btnDelEdit">
-                                        <button></button>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="btnDelEdit">
-                                        <button></button>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>kamran@65</td>
-                                <td>kamran</td>
-                                <td>1365</td>
-                                <td>
-                                    <div class="btnDelEdit">
-                                        <button></button>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="btnDelEdit">
-                                        <button></button>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>saman@70</td>
-                                <td>saman</td>
-                                <td>1370</td>
-                                <td>
-                                    <div class="btnDelEdit">
-                                        <button></button>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="btnDelEdit">
-                                        <button></button>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>navid@63</td>
-                                <td>navid</td>
-                                <td>1363</td>
-                                <td>
-                                    <div class="btnDelEdit">
-                                        <button></button>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="btnDelEdit">
-                                        <button></button>
-                                    </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="gapRight"></div>
-                    <!-- <div class="boxInfo"> -->
-                    <div class="inputInfo">
-                        <input type="text" placeholder="ایمیل">
-                        <input type="text" placeholder="رمز عبور">
-                        <button class="btnSubmit">submit</button>
-                    </div>
-                    <!-- </div> -->
+        </div>
+        <div class="clear"></div>
+        <div class="container">
+            <div class="rightSide">
+                <div class="divTable">
+                    <table>
+                        <tr>
+                            <th> نام کاربری </th>
+                            <th> نام </th>
+                            <th> تاریخ تولد </th>
+                            <th> ویرایش </th>
+                            <th> حذف </th>
+                        </tr>
+                        <tr>
+                            <td>ali@72</td>
+                            <td>ali</td>
+                            <td>1372</td>
+                            <td>
+                                <div class="btnDelEdit">
+                                    <button></button>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="btnDelEdit">
+                                    <button></button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>hossein@67</td>
+                            <td>hossein</td>
+                            <td>1367</td>
+                            <td>
+                                <div class="btnDelEdit">
+                                    <button></button>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="btnDelEdit">
+                                    <button></button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>kamran@65</td>
+                            <td>kamran</td>
+                            <td>1365</td>
+                            <td>
+                                <div class="btnDelEdit">
+                                    <button></button>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="btnDelEdit">
+                                    <button></button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>saman@70</td>
+                            <td>saman</td>
+                            <td>1370</td>
+                            <td>
+                                <div class="btnDelEdit">
+                                    <button></button>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="btnDelEdit">
+                                    <button></button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>navid@63</td>
+                            <td>navid</td>
+                            <td>1363</td>
+                            <td>
+                                <div class="btnDelEdit">
+                                    <button></button>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="btnDelEdit">
+                                    <button></button>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
-                <div class="leftSide">
-                    <div class="chengeBackColor">
-                        <img src="image/download.jpg" alt="photo">
-                    </div>
-                    <div class="gapLeft"></div>
-                    <div class="blockColors">
-                        <button class="btnYellow"></button>
-                        <button class="btnGreen"></button>
-                        <button class="btnBlue"></button>
-                        <button class="btnRed"></button>
-                    </div>     
-                </div> 
-            </div>   
-        </main>
-    </body>
+                <div class="gapRight"></div>
+                <!-- form login -->
+                <form class="inputInfo" action="">
+                    <input type="text" placeholder="ایمیل">
+                    <input type="text" placeholder="رمز عبور">
+                    <button class="btnSubmit">submit</button>
+                </form>
+                <button class="btn">less</button>
+                <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur sapiente tempora
+                    vitae animi? </p>
+                <!-- </div> -->
+            </div>
+            <div class="leftSide">
+                <div class="chengeBackColor">
+                    <img src="image/download.jpg" alt="photo">
+                </div>
+                <div class="gapLeft"></div>
+                <div class="blockColors">
+                    <button class="btnYellow"></button>
+                    <button class="btnGreen"></button>
+                    <button class="btnBlue"></button>
+                    <button class="btnRed"></button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+</body>
+
 </html>

@@ -320,3 +320,21 @@ input{
 .btnRed:hover{
     background-color: lightcoral;
 }
+
+.btn{
+    width: 40%;
+    height: 20px;
+    margin-top: 10px;
+    background-color: indigo;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+}
+
+.para{
+    width: 60%;
+    margin-top: 10px;
+    text-align: justify;
+    padding-bottom: 10px;
+}
